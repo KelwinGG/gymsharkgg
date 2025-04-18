@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 *{
@@ -125,4 +125,92 @@ section.hero-site{
     background-color: #000000;
     border-radius: 20px;
     
+}
+
+/* Estilo das vantagens */
+section.vantagens{
+    padding: 80px 0;
+}
+
+.vantagens .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-itens img{
+    max-width: 300px;
+    border-radius: 30px;
+}
+
+.vantagens .itens-container .txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.vantagens .itens-container .txt-itens  p{
+    color: white;
+    font-size: 25px;
+}
+
+/* contatos */
+section.contato{
+    background-color: white;
+    padding: 80px 0;
+}
+
+.txt-contato, .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+}
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato .icons-contato a{
+    text-decoration: none;
+}
+
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px ;
+
+    background-color: transparent;
+    border: 2px solid #000000 ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contato .icons-contato button i {
+    font-size: 24px;
+}
+
+.contato .icons-contato button:hover{
+    background-color: #000000;
+}
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+    color: white;
 }
