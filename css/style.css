@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.678);
 }
 
 *{
@@ -213,4 +213,47 @@ section.contato{
 }
 .contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
     color: white;
+}
+
+
+/* SEÇAO HOTEIS */
+section.hoteis{
+    height: 600px;
+
+    
+    background-image: url(../imgs-web/1926008-1920x1280-desktop-hd-cycling-mountain-bike-wallpaper-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    color: white;
+    text-align: center;
+}
+  
+
+.hoteis > .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000009a;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hoteis > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+}
+
+.hoteis h3{
+    font-size: 3.5em;
+    line-height: 70px;
+
 }
